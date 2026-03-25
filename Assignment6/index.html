@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Open console to see Student Result</h2>
+
+    <script>
+
+    let students = [
+
+    { name: "roshan", marks: [80, 75, 90] },
+    { name: "rahul", marks: [85, 88, 92] },
+    { name: "Arjun", marks: [70, 65, 78] }
+
+    ];
+
+    students.forEach(student => {
+
+    let total = 0;
+
+    student.marks.forEach(mark => {
+    total += mark;
+    });
+
+    let average = total / student.marks.length;
+
+    console.log("Student:", student.name);
+    console.log("Marks:", student.marks);
+    console.log("Average:", average.toFixed(2));
+
+    });
+
+    </script>
+
+
+</body>
+</html>

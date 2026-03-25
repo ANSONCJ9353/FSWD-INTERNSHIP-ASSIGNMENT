@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Open Console to Run Calculator</h2>
+
+    <script>
+
+    let num1 = Number(prompt("Enter first number:"));
+    let num2 = Number(prompt("Enter second number:"));
+
+    let operation = prompt("Enter operation (+, -, *, /)");
+
+    let result;
+
+    switch(operation){
+
+    case "+":
+        result = num1 + num2;
+        break;
+
+    case "-":
+        result = num1 - num2;
+        break;
+
+    case "*":
+        result = num1 * num2;
+        break;
+
+    case "/":
+        result = num1 / num2;
+        break;
+
+    default:
+        console.log("Invalid operation");
+}
+
+    console.log("Result:", result);
+
+    </script>
+
+
+</body>
+</html>

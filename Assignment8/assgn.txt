@@ -1,0 +1,14 @@
+Assignment Name : Component Hunt
+*Description* : Break a popular website into components and sketch the structure.
+
+website name : Netflix homepage
+
+App
+ -Navbar
+    -Logo, -NavLinks, -ProfileIcon.
+
+ -HeroBanner
+    -BackgroundImage, -Title, -Description, -Buttons.  
+
+ -Footer
+    -Links, -Copyright    
